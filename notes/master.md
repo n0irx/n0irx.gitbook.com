@@ -13,7 +13,7 @@ int main() {
 
 ## Preprocessing (Preprocessor)
 
-<img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
 `gcc main.c -o main.i # preprocess file using gcc`
 
@@ -44,7 +44,7 @@ int main() {
 
 ## Compiling (Compiler)
 
-<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
 
 ```nasm
 // output: main.s
@@ -84,7 +84,7 @@ l_.str:                                 ; @.str
 
 ## Assembling (Assembler)
 
-<img src="../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
 The output of assembling process (object file) is already a byte, so it's not human readable, but you can reverse the operation of object file back to assembler code by doing this:
 
@@ -94,6 +94,6 @@ The output of assembling process (object file) is already a byte, so it's not hu
 
 
 
-<img src="../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
 
 ## Loading (Loader)

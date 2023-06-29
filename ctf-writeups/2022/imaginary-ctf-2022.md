@@ -20,9 +20,9 @@ For this challenge, you have to read the codes via inspect element or view-page-
 
 the code is quite messy, but we know it's the flag right there, when you read it closely, we see this `motSusfunclion`, it's a method (you can search in the source code, and you see it's one of the button, and we can call it by using console from browser.
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (2).png>)
 
 ### rooCookie.js
 

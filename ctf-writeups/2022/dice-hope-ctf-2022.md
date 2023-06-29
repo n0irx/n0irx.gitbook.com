@@ -327,7 +327,7 @@ print(res.request.url)
 
 after you get the url for your XSS payload, you can paste it on the admin page, and you will receive the request from admin:
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (1).png>)
 
 ![](<../../.gitbook/assets/image (9).png>)
 

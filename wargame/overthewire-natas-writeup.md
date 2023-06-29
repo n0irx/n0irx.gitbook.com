@@ -54,7 +54,7 @@ after you try to view the page source (view-source:http://natas2.natas.labs.over
 
 you see there is a path to image location on the server, you can try to see the image at the link `http://natas2.natas.labs.overthewire.org/files/pixel.png` there nothing there, but can we see the list of files? we can go to `http://natas2.natas.labs.overthewire.org/files/`
 
-![](<../.gitbook/assets/image (2).png>)
+![](../.gitbook/assets/image.png)
 
 hmmm, `users.txt` seems suspicious, you can go to `http://natas2.natas.labs.overthewire.org/files/users.txt`
 
