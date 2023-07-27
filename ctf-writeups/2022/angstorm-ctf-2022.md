@@ -312,11 +312,11 @@ But after reading the code, there seems a filter and condition that make this th
 
 so with this condition is not easy task to just input `https://school-unblocker.web.actf.co/flag` or `127.0.0.1/flag` because those filtering, so we have to think another way to make it happen.
 
-***
+
 
 I got an idea to use redirect the request into another endpoint. First we have to supply the correct format for /proxy endpoint that is to supply public correct ipv4 url, then this fake server will listen, and send a response 308 to redirect to 0.0.0.0/flag so that the proxy will act behalf on this fake server.
 
-***
+
 
 this code is for fake server forwarder
 
@@ -360,7 +360,7 @@ while True:
         port -= 1
 ```
 
-***
+
 
 So the flow will be like:
 

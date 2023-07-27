@@ -51,7 +51,7 @@ The hash value of 240610708 is 0e462097431906509019562988736854 and the hash val
 
 
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (4).png>)
 
 > JOINTS20{b4bytyp3ju99lin9_md5_}
 
@@ -59,7 +59,7 @@ The hash value of 240610708 is 0e462097431906509019562988736854 and the hash val
 
 this page provides a URL box that we can feel with a link and scrap the image if it succeeds it will send alert:
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 and it pops up at the bottom of the page, and it stored on the cookie I think? when I flush the cookie, the image disappears, poor waifu.
 
@@ -67,7 +67,7 @@ and the important thing that is the image is downloaded locally to the server, m
 
 I try to use some kind of special character in the URL i tried there is two response one is and one is (using `"` and `-`) and bingo, there is 500 internal error:
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 and the preview of the error said that
 
@@ -110,7 +110,7 @@ and viola:
 
 
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 ```shell
 
@@ -148,4 +148,4 @@ JOINTS20{ya_benar_ini_benderanya_uwu}JOINTS20{ya_benar_ini_benderanya_uwu}
 
 ```
 
-![](<../.gitbook/assets/image (7).png>)
+![](../.gitbook/assets/image.png)

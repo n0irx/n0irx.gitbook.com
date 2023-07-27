@@ -19,7 +19,7 @@ _July 2020 - August 2020_
 
 tech stacks: **Ansible, BurpSuite, ZAP, Vagrant, Snyk.io**
 
-***
+
 
 #### Software and Security Architect ‐ Proyekin.id
 
@@ -36,7 +36,7 @@ _Jan 2020 - Present_
 
 tech stacks: **Heroku, WebSocket, RabbitMQ**
 
-***
+
 
 #### Security Engineer & DevOps Engineer - Pusat Ilmu Komputer (Pusilkom)
 
@@ -52,7 +52,7 @@ _September 2019 - February 2020_
 
 tech stacks: **Ansible, BurpSuite, ZAP**
 
-***
+
 
 #### Software Engineer Intern (Backend) - Bukalapak
 
@@ -68,7 +68,7 @@ _June 2019 - Agustus 2019_
 
 tech stacks: **Ruby, Go, MongoDB, MySQL**
 
-***
+
 
 ### Open Source Projects
 
@@ -80,7 +80,7 @@ _July 2020_
 
 [Visit to Contribute!](https://github.com/n0irx/syphon)
 
-***
+
 
 ### Private/Paid Projects
 
@@ -97,7 +97,7 @@ _September 2019_
 
 stacks: **ASP NET Core, SQLServer, Microsoft RDP**
 
-***
+
 
 #### Tokopedia AI Center Websites
 

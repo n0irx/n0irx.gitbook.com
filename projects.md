@@ -1,8 +1,6 @@
 # Projects
 
-### Projects
-
-### Syphon (open-source project)
+## Syphon (open-source project)
 
 _July 2020_
 
@@ -10,7 +8,9 @@ _July 2020_
 
 [Visit to Contribute!](https://github.com/n0irx/syphon)
 
-#### Mandiri Tunas Finance: Master Packet Calculator (proprietary software)
+##
+
+## Mandiri Tunas Finance: Master Packet Calculator (proprietary software)
 
 _September 2019_
 
@@ -23,9 +23,9 @@ _September 2019_
 
 stacks: **ASP NET Core, SQLServer, Microsoft RDP**
 
-***
 
-#### Tokopedia AI Center Websites
+
+## Tokopedia AI Center Websites
 
 _February 2019_
 
@@ -40,7 +40,9 @@ stacks: **Python, Django, PostgreSQL, NginX**
 
 Visit Website
 
-#### Talentnesia
+####
+
+## Talentnesia
 
 _July 2019_
 

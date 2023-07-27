@@ -1,5 +1,9 @@
 # How Each GCC Process C/C++ Code
 
+Sometimes, I wonder how the gcc compilation works, I only know we can do something like `gcc file.c -o file.o` and be done with it. It turns out, this command do a lot of things in the back.
+
+I will do this compilation in MacOS, so the output may differ if you use Linux or Windows machine, but I think the overall would be simiar.
+
 ```c
 // main.s file 
 
@@ -11,9 +15,17 @@ int main() {
 }
 ```
 
+The code above will be our example code. Now, let's see how the compilation works from the start:
+
 ## Preprocessing (Preprocessor)
 
-<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+
+
+The first process of compilation is preprocessing, where the our source code (source.c) is preprocessed by including the directive.
+
+
+
+<img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
 
 `gcc main.c -o main.i # preprocess file using gcc`
 
@@ -44,7 +56,7 @@ int main() {
 
 ## Compiling (Compiler)
 
-<img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
 ```nasm
 // output: main.s
@@ -84,7 +96,7 @@ l_.str:                                 ; @.str
 
 ## Assembling (Assembler)
 
-<img src="../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
 
 The output of assembling process (object file) is already a byte, so it's not human readable, but you can reverse the operation of object file back to assembler code by doing this:
 
@@ -94,6 +106,6 @@ The output of assembling process (object file) is already a byte, so it's not hu
 
 
 
-<img src="../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
 ## Loading (Loader)

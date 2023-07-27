@@ -20,7 +20,7 @@ inspect element or view source code
 
 > natas1: gtVrDuiDfck831PqWsLEZy5gyDz1clto
 
-***
+
 
 ### natas1
 
@@ -37,7 +37,7 @@ inspect element using shortcut
 
 > natas2: ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
 
-***
+
 
 ### `natas2`
 
@@ -54,7 +54,7 @@ after you try to view the page source (view-source:http://natas2.natas.labs.over
 
 you see there is a path to image location on the server, you can try to see the image at the link `http://natas2.natas.labs.overthewire.org/files/pixel.png` there nothing there, but can we see the list of files? we can go to `http://natas2.natas.labs.overthewire.org/files/`
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (2).png>)
 
 hmmm, `users.txt` seems suspicious, you can go to `http://natas2.natas.labs.overthewire.org/files/users.txt`
 
@@ -70,7 +70,7 @@ mallory:9urtcpzBmH
 
 > natas3: sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
 
-***
+
 
 ### natas3
 
@@ -90,7 +90,7 @@ check `http://natas3.natas.labs.overthewire.org/s3cr3t/` , it will tell you the 
 
 > natas4: Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
 
-***
+
 
 ### natas4
 
@@ -117,7 +117,7 @@ curl -u natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ http://natas4.natas.labs.overthe
 
 > natas5: iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
 
-***
+
 
 ### `natas5`
 
@@ -134,7 +134,7 @@ Access granted. The password for natas6 is aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
 
 > natas6: aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
 
-***
+
 
 ### natas6
 
@@ -161,7 +161,7 @@ we can see there is _include_ command that include external file, it seems we ca
 
 > natas7: 7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
 
-***
+
 
 ### Next Natas
 
