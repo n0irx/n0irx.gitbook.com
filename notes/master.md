@@ -5,7 +5,7 @@ Sometimes, I wonder how the gcc compilation works, I only know we can do somethi
 I will do this compilation in MacOS, so the output may differ if you use Linux or Windows machine, but I think the overall would be simiar.
 
 ```c
-// main.s file 
+// main.c file 
 
 #include <stdio.h>
 
@@ -21,9 +21,12 @@ The code above will be our example code. Now, let's see how the compilation work
 
 
 
-The first process of compilation is preprocessing, where the our source code (source.c) is preprocessed by including the directive.
+The first process of compilation is preprocessing, where the our source code (source.c) is preprocessed by:
 
-
+1. including files containing definition (#include keyword)
+2. Convert values define by #define&#x20;
+3. Convert macros
+4. Include/exclude #if, #elif, #endif directive
 
 <img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
 
@@ -94,18 +97,46 @@ l_.str:                                 ; @.str
 .subsections_via_symbols
 ```
 
+
+
+There are two separate process behind the compilation process (**front-end process**: lexical analysis, syntax analysis, semantic analysis, and **backend-process**: code generation, code optimization).
+
+#### Front-end process:
+
+1. Lexical analysis: will tokenize code into smallest (undivisible) form&#x20;
+2. Syntax analysis: will check if the order of the token make sense (valid)
+3. Semantic analysis: will discover whether syntactically correct statements actually make any sense
+
+#### Back-end process:
+
+1. Code optimization: code optimization will be done before generating the assembly code
+2. Code generation: from the optimized and tokenized version of the code, we generate the assembler code (human-readable assembly) that match specified processor code (.s file)
+
 ## Assembling (Assembler)
 
 <img src="../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
 
-The output of assembling process (object file) is already a byte, so it's not human readable, but you can reverse the operation of object file back to assembler code by doing this:
+The assembler code from compilation process would be pass to assembler that convert human-readable assembler code (.s file) into machine-readable assembly code that match specified pvaocessor (object files, .o files).
 
+The output of assembling process (object files) are already in bytes form (machine-readable), but you can reverse the operation of object file back to assembler code by doing this:
 
+```bash
+$ objdump -D <filename>.o
+```
+
+Object files looks like a tiles waiting to be tiled together (by the linker). It contains&#x20;
 
 ## Linking (Linker)
 
 
 
 <img src="../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+
+Linking is the last process of GCC compilation process that produce runnable ELF executable file.
+
+The linking process is divided into two process (tiling, and resolving symbols):
+
+1. Relocating: the analogy of object files are puzzles waiting to be solved, to be arranged, this is the relocating process, it will try to map each of the object files sections into a program memory map, before the address of the component would be in **base-0** for each object file, after the relocating process, it would have more concrete address range, but still not fixed yet, because in this process we also need to resolve some missing address component (uninitialized data, reference in different files, etc.)
+2. Resolving references: After relocating all the object files component into abstract memory format, linker will try resolving component that is not resolved locally. It needs to find in the program memory where this variable, reference is declared.
 
 ## Loading (Loader)
